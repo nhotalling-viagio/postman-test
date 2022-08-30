@@ -295,7 +295,20 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "/test?a=b",
+					"path": [
+						"test"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "b",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
