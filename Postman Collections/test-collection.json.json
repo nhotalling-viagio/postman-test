@@ -297,15 +297,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "/test?a=b",
+					"raw": "/test?a=c",
 					"path": [
 						"test"
 					],
 					"query": [
 						{
 							"key": "a",
-							"value": "b",
-							"type": "text"
+							"value": "c"
 						}
 					]
 				}
